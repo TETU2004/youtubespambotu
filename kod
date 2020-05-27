@@ -7,9 +7,9 @@ pyautogui.click(200, 1000)
 pyautogui.scroll(-800)
 time.sleep(0.3)
 sinir = 0
-while sinir < 1:
+while sinir < 10:
     pyautogui.click(200, 480)
-    pyautogui.write("sa")
+    pyautogui.write("metin")
     pyautogui.click(1250, 550)
-    time.sleep(1.1)
+    time.sleep(0.5)
     sinir = sinir+1
